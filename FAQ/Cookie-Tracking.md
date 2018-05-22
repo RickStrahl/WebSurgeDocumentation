@@ -16,11 +16,11 @@ This works but has a major disadvantages:
 ### Set ReplaceCookieValue
 As an alternative you can capture a single valid Cookie value via  a tool like Fiddler or via browser Dev tools. The following captures a Cookie via the Chrome Dev Tools (F12 in browser):
 
-![](images/capturecookiewithchrome.png)
+![](../images/capturecookiewithchrome.png)
 
 You can capture the cookie value and assign it to the **Session Options ->  ReplaceCookieValue** setting.
 
-![](images/replacecookievalue.png)
+![](../images/replacecookievalue.png)
 
 When you set this value it will override the Cookie value for every request that is sent to the server. This may or may not be what you want, but in most cases this is a quick and easy way to add Cookie values that are valid for your test session.
 
