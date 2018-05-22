@@ -4,7 +4,7 @@ WebSurge provides a couple of ways to seed Cookie Data:
 
 * Create `Cookie` header in your HTTP request
 * Set `ReplaceCookieValue` for a global replacement value
-* Use `TrackPerSessionCookies`
+* Use `TrackPerSessionCookies` 
 
 ### Setting the Cookie Header
 The explicit way to set Cookies is by capturing requests that include a given Cookie header. When you capture requests you the Cookie is part of the captured data.
